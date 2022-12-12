@@ -1,15 +1,7 @@
-*{
-margin: 0; 
-padding: 0;
-}
-
-
-
 body{
 font-size: 15px;
 width: 100%;
 height: 400vh;
-overflow: hidden;
 background-color: #5b6995;
 color: white;
 }   
