@@ -1,5 +1,5 @@
 body{
-font-size: 15px;
+font-size: 20px;
 width: 100%;
 height: 400vh;
 background-color: #5b6995;
@@ -7,21 +7,55 @@ color: white;
 }   
   .Top{
 width: 80%;
- margin: 4% 10% 5% 10%;
-}
-.Top img{
+ }
+
+.container img{
 width: 100%;
+margin: 0% 5% 15% 12%;
+position: center;
 }
 
-.info { 
+.row{ 
 color: white;
 font-size: 15px;
-margin: 5% 8% 0% 10%;
 }
 
-row { 
+.players {
+margin: 0% 0% 0% 0%; 
+padding: 0px 0px 0px 350px;
+}
+
+.goal {
+text-align: center;
+margin: 0% 0% 0% 0%;
+padding: 0px 75px 0px 280px;
+}
+
+.events{ 
+margin: 0% 0% 0% 0%; 
+padding-top: 70px;
+}
+
+.row { 
 color: white;
 }
+
+.container {
+width: 100%
+}
+
+.rosters { 
+margin: 0% 0% 0% 0%;
+padding: 0px 100px;
+
+}
+
+.tournaments { 
+margin: 0% 0% 0% 0%;
+padding: 0px 500px;
+padding-top: 70px;
+}
+
 
 
 
