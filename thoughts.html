@@ -15,6 +15,8 @@
 
   </head>
   <body>
+  
+  
   <header>
 	<img class= "logo" src="images/logo.png" alt= "logo">
 	<nav>
@@ -23,16 +25,22 @@
 	<ul class= "nav__links">
 	<li class="active"><a href="index (2).html">Home</a></li>
 	<li><a href="TeamsandRosters.html">Teams</a>
-	<li><a href="Tournaments.html">Touraments</a></li>
-	<li><a href="#">My thoughts</a></li>
+	<li><a href="events.html">Events</a></li>
+	<li><a href="thoughts.html">My thoughts</a></li>
 		</ul>
 		</div>
 		</nav>
-		<a class="cta" href="#"><button>What's New</button></a>
+		<a class="cta" href="whatsnew.html"><button>What's New</button></a>
 	</header>
+	
+	
+	
 
-  <h2><center>The Best Pros This Month</center></h2>
+<div class="Month">
+  <h2><center>The Best Pros This Month
+  </center></h2>
 <p><center>For this month the best pros are First Killer from the United States, and vatira. from France:</center></p>
+</div>
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'US')"><center>First Killer</center></button>
@@ -123,7 +131,7 @@
  </tr>
  </table>
   
-  <div class= "Vatipic">
+  <div class= "Vati">
    <p><center>
 <img src="images/vatira.jpg" alt= "vatira." />
 </center></p>
@@ -134,7 +142,7 @@
   <tr>
   <th colspan="6"><center>Stats:</center></th>
   </tr>
-	<tr>
+	<tr class="Notable">
   <th>Win%:</th>
   <th>Score per game</th>
   <th>Goals per game</th>
@@ -142,12 +150,12 @@
   <th>Saves per game</th>
   <th>Shots per game</th>
   </tr>
-  <tr>
+  <tr class= "statistics">
   <th>66.67%</th>
 <th>396.60</th>
 <th>1.07</th>
 <th>0.60</th>
-<th>1.40<th>
+<th>1.40</th>
 <th>2.40</th>
   </tr>
   </table>
@@ -171,6 +179,8 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+
+
 </body>
 
     <script src="js/jquery.min.js"></script>
@@ -188,3 +198,4 @@ function openCity(evt, cityName) {
 </script>
   </body>
 </html>
+
