@@ -1,0 +1,76 @@
+body{
+background-color: #efdecd;
+background-image: url("../images/pattern.jpg");
+
+}
+
+
+
+
+.contact {
+text-align:center;
+margin:auto;
+padding-bottom:10%;
+line-height:4.0;
+}
+
+.education {
+line-height:2.0;
+width:50%;
+padding-left: 15%;
+float:left;
+}
+
+.work {
+line-height:2.0;
+text-align:center;
+width:50%;
+padding-right:15%;
+
+float:right;
+
+}
+
+.exp{
+padding-top:2%;
+}
+
+
+.Extra{
+line-height:2.0;
+width:50%;
+padding-left: 15%;
+padding-top:10%;
+float:left;
+}
+
+
+.Skills {
+line-height:2.0;
+text-align:center;
+width:50%;
+padding-right:15%;
+padding-top:1%;
+float:right;
+
+
+}
+
+.pad {
+padding-top:12%;
+padding-bottom:2%;
+}
+
+
+
+
+
+
+
+.Recommendations {
+line-height:2.0;
+width:50%;
+padding-left: 15%;
+padding-top:10%;
+float:left;
+}
