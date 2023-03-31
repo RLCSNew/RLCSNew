@@ -277,8 +277,13 @@ height:100%;
 .content2 {
 font-size: 20px;
 }
+   
 
 
+
+.card-text {
+color:black;
+}
 
 .leftgoal {
 width: 45%;
