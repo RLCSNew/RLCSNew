@@ -43,8 +43,8 @@
 </div>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'US')"><center>First Killer</center></button>
-  <button class="tablinks" onclick="openCity(event, 'European')"><center>vatira.</center></button>
+  <button class="tablinks" onclick="openTab(event, 'US')"><center>First Killer</center></button>
+  <button class="tablinks" onclick="openTab(event, 'European')"><center>vatira.</center></button>
 </div>
 
 <div id="US" class="tabcontent">
@@ -182,20 +182,32 @@
 
 
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+		// Function to open tab content
+		function openTab(evt, tabName) {
+			// Declare variables
+			var i, tabcontent, tablinks;
+
+			// Get all elements with class="tabcontent" and hide them
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+			// Get all elements with class="tablinks" and remove the class "active"
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+
+			// Show the current tab, and add an "active" class to the button that opened the tab
+			document.getElementById(tabName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+
+		// Set the first tab as active when the page loads
+		document.getElementsByClassName("tablinks")[0].click();
+	</script>
+
 
 
 </body>
