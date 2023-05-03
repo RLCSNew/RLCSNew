@@ -302,61 +302,6 @@ text-align:center;
 padding-top:5%;
 }
 
-
-
-.history {
-margin:5%;
-}
-
-
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-width:24%;
-text-align:center;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-
-
-
-
-
-
 #myBtn {
   display: none;
   position: fixed;
@@ -376,3 +321,140 @@ text-align:center;
 #myBtn:hover {
   background-color: #555;
 }
+
+
+
+.history {
+margin:5%;
+}
+
+
+#button1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#button2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#button3 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#button4 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.spacing {
+  position: relative;
+  display: inline-block;
+width:100%;
+text-align:center;
+}
+
+
+.dropdown {
+  display: none;
+position: relative;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99;
+text-align: center;
+}
+
+.dropdown a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+
+.whatsnew {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+ font-size: 30px;
+ line-height: 1.0;
+ color:#000000;
+
+}
+
+ .column {
+        flex-basis: 50%;
+        padding: 20px;
+		
+      }
+      .col-mid-6 {
+	  width: 100%;
+	  border-left: 500px black; 
+	  border-right: 500px right;
+        background-color: #f2f2f2;
+		
+		font-size: 40px;
+		font-weight:bold;
+      }
+      .right {
+        background-color: #ddd;
+		line-height:5.0;
+		font-size: 30px;
+		font-weight:bold;
+		
+      }
+	 
+      h2 {
+        margin-top: 0;
+        font-size: 24px;
+        text-align: center;
+      }
+
+ .container2 {
+	
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+background-color: #a7a7a7;
+max-width:100%;
+height:100vh;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align:center;
+background-color: #a7a7a7;
+background-image: url("../images/Sovereign_Heights.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+background-color: gray;
+box-sizing:border-box;
+      }
+
+
+.newhead {
+
+margin-bottom: 5%;
+
+} 
+      
