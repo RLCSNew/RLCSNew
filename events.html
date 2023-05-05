@@ -32,7 +32,7 @@ font-size:30px;
 	<ul class= "nav__links">
 	<li class="active"><a href="index.html">Home</a></li>
 	<li><a href="TeamsandRosters.html">Teams</a>
-	<li><a href="events.html">Touraments</a></li>
+	<li><a href="events.html">Events</a></li>
 	<li><a href="thoughts.html">My thoughts</a></li>
 		</ul>
 		</div>
@@ -85,16 +85,16 @@ font-size:30px;
 			<div class="row">
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/Open.jpg" />
+						<img class="card-img-top" alt="Bootstrap Thumbnail First" src="images/Spring.png" />
 						<div class="card-block">
 							<h5 class="card-title">
 								Winter Open: 
 							</h5>
 							<p class="card-text">
-								 The Winter Open is the first chance for RLCS teams to gain points for determining seeding for the RLCS World Championship. All teams are allowed to play in this tournament. It was held from January 27th to February 5th.
+								 The Spring Split is the last team teams can prove they are good enough for the Worrld CHampionship. Matches will be held from May 5th to June 18th through the Cup, Open, and Invitational tournaments. 
 							</p>
 							<p class="card-text">
-							EU winners were: Karmine Corp<br>NA winners were: Gen.G Mobil1 Racing
+							NA's Leader in points after Split: G2 Esports<br>Eu's Leader in Points after Split: Moist Esports
 							</p>
 							
 						</div>
@@ -102,13 +102,13 @@ font-size:30px;
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="images/Cup.jpg" />
+						<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="images/Major.png" />
 						<div class="card-block">
 							<h5 class="card-title">
 								Winter Cup:
 							</h5>
 							<p class="card-text">
-								After teams qualify through the open qualifers bracket, the group stage begins. 4 groups with 4 teams in each group play against each other, the winner of the group moves to the quarter finals immediately. Places 2 and 3 in the group qualify for round 1 and th place is eliminated. 
+						Teams are invited to play in a tournament after qualifying through the three different tournaments. These are the teams last chance to prove they are worthy to be at the RLCS World CHampionship in August.							
 							</p>
 							<p class="card-text">
 							EU winners were: Karmine Corp<br>NA winners were: Faze Clan
@@ -121,17 +121,17 @@ font-size:30px;
 				</div>
 				<div class="col-md-4">
 					<div class="card">
-						<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="images/invitation.jpg" />
+						<img class="card-img-top" alt="Moist Esports" src="images/Moist.png" />
 						<div class="card-block">
 							<h5 class="card-title">
 								Winter Invitational:
 							</h5>
 							<p class="card-text">
-								Teams are invited to play in a tournament with the same format as the Winter Open, and Cup. Winners of the invitational get additional points that matter toward RLCS World Championship seeding.  
+								Although the team is now broken up, Moist Esports had one of the most impressive lower bracket runs that we have ever seen last year. Do you think any of these players can win again on their respective teams?
 							</p>
 							
 							<p class="card-text">
-							EU winners were: Team Liquid<br>NA winners were: Faze Clan
+							The Winner was Moist Esports. 
 							</p>
 							
 						</div>
@@ -143,11 +143,10 @@ font-size:30px;
 			
 			<h2 class="history">Former Major Winners</h2>
 	
-
-<div class="dropdown">
-  <button class="dropbtn">Major Winners from 2020</button>
-  <div class="dropdown-content">
-  <a href= "#">Due to Covid-19, Majors were cancelled. So here are the overall champions for North America and Europe.</a>
+<div class="spacing">
+<button id="button1" onclick="showContent('dropdown')"> Major Winners From 2020 </button>
+    <div id="dropdown" class="dropdown">
+      <a href= "#">Due to Covid-19, Majors were cancelled. So here are the overall champions for North America and Europe.</a>
   <a href= "#">North America's Championship Winner was:</a>
  <table class="table">
 					<thead>
@@ -305,13 +304,10 @@ font-size:30px;
 				</tbody>
 			</table>
 
-  </div>
-</div>
-
-			<div class="dropdown">
-  <button class="dropbtn">Major Winners from 2021</button>
-  <div class="dropdown-content">
- <a href= "#">Fall Major Winner was:</a>
+    </div>
+    <button id="button2" onclick="showContent('dropdown2')">Major Winners From 2021 </button>
+    <div id="dropdown2" class="dropdown">
+      <a href= "#">Fall Major Winner was:</a>
 <table class="table">
 					<thead>
 					<tr>
@@ -543,13 +539,10 @@ font-size:30px;
 					</tbody>
 				</table>
 
-  </div>
-</div>
-
-<div class="dropdown">
-  <button class="dropbtn">Major Winners from 2022</button>
-  <div class="dropdown-content">
-  <a href= "#">Fall Major Winner was:</a>
+    </div>
+    <button id="button3" onclick="showContent('dropdown3')">Major Winners From 2022</button>
+    <div id="dropdown3" class="dropdown">
+       <a href= "#">Fall Major Winner was:</a>
   <table class="table">
 				<thead>
 					<tr>
@@ -705,26 +698,29 @@ font-size:30px;
 				
 				</tbody>
 			</table>
-			<a href= "#">Spring Major Winner has not been determinded yet.</a>
-  </div>
-</div>
 
-<div class="dropdown">
-  <button class="dropbtn">Major Winners from 2023</button>
-  <div class="dropdown-content">
- <a href= "#">TBD! These are all upcoming majors.</a>
-  
-  </div>
-</div>
-
-
-</div>
-			
-			
-			
-		</div>
+    </div>
+    <button id="button4" onclick="showContent('dropdown4')">Major Winners From 2023</button>
+    <div id="dropdown4" class="dropdown">
+      <a href= "#">TBD! These are all upcoming majors.</a>
+    </div>
+	
 	</div>
-</div>
+    <script>
+      function showContent(contentId) {
+        // Hide all dropdowns
+        var dropdowns = document.getElementsByClassName("dropdown");
+        for (var i = 0; i < dropdowns.length; i++) {
+          dropdowns[i].style.display = "none";
+        }
+
+        // Show the clicked dropdown
+        var content = document.getElementById(contentId);
+        content.style.display = "block";
+      }
+    </script>
+
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
