@@ -498,3 +498,50 @@ background-color: #91BAD6;
 color: black;
 
 }
+
+.Two {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: white;
+max-width:100%;
+height:100vh;
+padding-bottom: 5%;
+text-align:center;
+background-image: url("../images/Sovereign_Heights.jpg");
+background-color: #a7a7a7;
+background-size: cover;
+background-blend-mode: multiply;
+box-sizing: border-box;
+
+
+
+}
+
+.section {
+      flex-basis: 33.33%;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+    
+    .subsection {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    
+    .left-subsection {
+      text-align: left;
+    }
+    
+    .right-subsection {
+      text-align: left;
+    }
+
+
+.sub-section2 {
+text-align:center;
+
+}
+
