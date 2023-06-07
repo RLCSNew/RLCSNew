@@ -33,7 +33,7 @@
 		<a class="cta" href="whatsnew.html"><button>What's New</button></a>
 	</header>
 	
-	
+	<button onclick="topFunction()" id="myBtn" title="Go to top"> Top of the page</button>
 	
 	<div class="containers">
 	
@@ -301,7 +301,11 @@
 		
 		<h2>Spring Cup:</h2>
 		
-		<h4>TBD</h4>
+		<iframe width="360" height="215" src="https://www.youtube.com/embed/K1JMtq5RQx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+		<iframe width="360" height="215" src="https://www.youtube.com/embed/-PSTilw7FMI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+		<iframe width="360" height="215" src="https://www.youtube.com/embed/ySeidDQ4vaY?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		
 		
 		
@@ -338,7 +342,27 @@
 		</div>
 		</div>
 	
-	
+	<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 	
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
